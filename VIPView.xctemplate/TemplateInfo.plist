@@ -10,9 +10,9 @@
 			<key>Required</key>
 			<true/>
 			<key>Name</key>
-			<string>Module:</string>
+			<string>Name:</string>
 			<key>Description</key>
-			<string>The name of the module to create</string>
+			<string>The name of the UIView to create</string>
 			<key>Type</key>
 			<string>text</string>
 			<key>NotPersisted</key>
@@ -24,11 +24,11 @@
 	<key>Kind</key>
 	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
 	<key>Description</key>
-	<string>VIP Module Template</string>
+	<string>Create UIView</string>
 	<key>Summary</key>
-	<string>VIP Module Template</string>
+	<string>Create UIView</string>
 	<key>SortOrder</key>
-	<string>1</string>
+	<string>2</string>
 	<key>Image</key>
 	<dict>
 		<key>FileTypeIcon</key>
