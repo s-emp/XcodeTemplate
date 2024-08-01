@@ -1,13 +1,18 @@
 import UIKit
 
-protocol ___VARIABLE_moduleName___PresentationLogic { 
-    var viewController: ___VARIABLE_moduleName___ViewController? { get set }
+// MARK: - Presentation Logic
+protocol ___VARIABLE_moduleName___PresentationLogic {
+    var viewController: ___VARIABLE_moduleName___DisplayLogic? { get set }
 }
 
+// MARK: - Presenter
 final class ___VARIABLE_moduleName___Presenter: ___VARIABLE_moduleName___PresentationLogic {
-    weak var viewController: ___VARIABLE_moduleName___ViewController?
+    
+    // MARK: - Properties
+    weak var viewController: ___VARIABLE_moduleName___DisplayLogic?
 
-    init(viewController: ___VARIABLE_moduleName___ViewController? = nil) {
+    // MARK: - Initializers
+    init(viewController: ___VARIABLE_moduleName___DisplayLogic? = nil) {
         self.viewController = viewController
     }
 }
